@@ -1,0 +1,5 @@
+package com.example.microservices.bean;
+
+public class Limits {
+
+}

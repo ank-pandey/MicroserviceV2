@@ -1,0 +1,9 @@
+package com.example.microservices.configuration;
+
+import org.springframework.boot.context.properties.ConfigurationProperties;
+
+@ConfigurationProperties("limits-service")
+public class Configuration {
+	private Integer minimum;
+	private Integer maximum;
+}
